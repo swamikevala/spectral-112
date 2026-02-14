@@ -1,0 +1,32 @@
+=== Dejter Manifold (112-vertex induced subgraph of Q7) ===
+Graph vertices |V|: 112
+Graph edges |E|: 336
+Regularity check (degree = 6): True
+Degree min/max: 6/6
+Bipartite check: True
+
+=== Exact Adjacency Spectrum [eigenvalue : multiplicity] ===
+ -6 : 1
+ -4 : 7
+ -3 : 14
+ -1 : 34
+  1 : 34
+  3 : 14
+  4 : 7
+  6 : 1
+
+=== Bass Quadratic Roots for Non-Backtracking Spectrum ===
+For each adjacency eigenvalue λ, solve μ^2 - λμ + 5 = 0
+λ= -6 (mult= 1) -> μ1=-1.000000000000+0.000000000000i, μ2=-5.000000000000+0.000000000000i
+λ= -4 (mult= 7) -> μ1=-2.000000000000+1.000000000000i, μ2=-2.000000000000-1.000000000000i
+λ= -3 (mult=14) -> μ1=-1.500000000000+1.658312395178i, μ2=-1.500000000000-1.658312395178i
+λ= -1 (mult=34) -> μ1=-0.500000000000+2.179449471770i, μ2=-0.500000000000-2.179449471770i
+λ=  1 (mult=34) -> μ1=+0.500000000000+2.179449471770i, μ2=+0.500000000000-2.179449471770i
+λ=  3 (mult=14) -> μ1=+1.500000000000+1.658312395178i, μ2=+1.500000000000-1.658312395178i
+λ=  4 (mult= 7) -> μ1=+2.000000000000+1.000000000000i, μ2=+2.000000000000-1.000000000000i
+λ=  6 (mult= 1) -> μ1=+5.000000000000+0.000000000000i, μ2=+1.000000000000+0.000000000000i
+
+=== Riemann Hypothesis / Ramanujan Test ===
+Critical circle radius sqrt(q)=sqrt(5)=2.236067977500
+Non-trivial |μ| values (unique, rounded): [2.2360679775]
+All non-trivial |μ| on critical circle? True
